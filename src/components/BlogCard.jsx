@@ -54,13 +54,14 @@ export default function BlogCard() {
             Read more
           </Link>
         </div>
+
         <div>
           <div class="relative">
             <Image
               width={500}
               height={500}
               class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
-              src={"/blog1.jpg"}
+              src={"/girl.jpg"}
               alt="all"
             />
 
@@ -69,16 +70,16 @@ export default function BlogCard() {
                 width={500}
                 height={500}
                 class="object-cover object-center w-10 h-10 rounded-full"
-                src={"/blog1.jpg"}
+                src={"/girl.jpg"}
                 alt="all"
               />
 
               <div class="mx-4">
                 <h1 class="text-sm text-gray-700 dark:text-gray-200">
-                  Tom Hank
+                  Bella Imal
                 </h1>
                 <p class="text-sm text-gray-500 dark:text-gray-400">
-                  Creative Director
+                  CEO 
                 </p>
               </div>
             </div>
@@ -102,13 +103,14 @@ export default function BlogCard() {
             Read more
           </Link>
         </div>
+
         <div>
           <div class="relative">
             <Image
               width={500}
               height={500}
               class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
-              src={"/blog1.jpg"}
+              src={"/baby.jpg"}
               alt="all"
             />
 
@@ -117,7 +119,7 @@ export default function BlogCard() {
                 width={500}
                 height={500}
                 class="object-cover object-center w-10 h-10 rounded-full"
-                src={"/blog1.jpg"}
+                src={"/baby.jpg"}
                 alt="all"
               />
 

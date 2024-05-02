@@ -55,6 +55,7 @@ export default function Header() {
               src={"https://merakiui.com/images/logo.svg"}
               alt=""
             />
+            <h2 className="pl-4 text-lg font-bold">Franky Lifestyle</h2>
 
             {/* Mobile menu button */}
             <div className="flex lg:hidden">
@@ -93,7 +94,7 @@ export default function Header() {
                 BLOG
               </Link>
               <Link
-                href={"/about"}
+                href={"/page/about"}
                 className="px-3 py-2 mx-3 mt-2 font-bold transition-colors duration-300 transform lg:mt-0 hover:text-gray-500"
               >
                 ABOUT
